@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Lab002ConvertOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab01CalcOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab01TestOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab03CheckOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab04ActivitiesOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab05NotesOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab06SQLliteOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab07NotesPlusOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab08Omelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab09ImageOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab10APIOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab16ChatOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab17PhotoFilterOmelko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab00TestOmelko" vcs="Git" />
+  </component>
+</project>

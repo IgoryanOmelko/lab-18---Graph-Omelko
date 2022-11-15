@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.lab18_graphsomelko.GraphView
+        android:id="@+id/gvGraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAddNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BtnAddNodeOnClick"
+            app:icon="@android:drawable/ic_menu_add" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnDeleteOnClick"
+            app:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <Button
+            android:id="@+id/btnLinkNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnLinkNodeOnClick"
+            app:icon="@android:drawable/ic_menu_edit" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BtnSettingsOnClick"
+            app:icon="@android:drawable/ic_menu_manage" />
+
+        <Button
+            android:id="@+id/btnSetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BtnSetTextOnClick"
+            app:icon="@android:drawable/ic_menu_sort_alphabetically" />
+    </LinearLayout>
+
+</LinearLayout>

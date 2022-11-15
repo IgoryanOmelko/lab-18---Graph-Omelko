@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lab 18 - Graphs Omelko</string>
+    <string name="FormatExceptionText">Value uncorrected</string>
+    <string name="GraphNotSelected">Graph not selected</string>
+    <string name="NameTooLong">Name can not be longer than 30 symbols</string>
+    <string name="attention">Attention</string>
+    <string name="agreement">Are you sure?</string>
+    <string name="Saved">Saved</string>
+    <string name="btnOK">Ok</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSave">Save</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnClone">Clone</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnRename">Rename</string>
+    <string name="btnLoad">Load</string>
+    <string name="btnBack">Back</string>
+    <string name="chkbArrows">Arrows</string>
+    <string name="tvEnterValueAB">Enter value From A to B</string>
+    <string name="tvEnterValueBA">Enter value From B to A</string>
+    <string name="tvLinkSettingAldHeader">Link settings</string>
+</resources>

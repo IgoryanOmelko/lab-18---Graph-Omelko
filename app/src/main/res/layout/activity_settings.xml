@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="BtnBackOnClick"
+            android:text="@string/btnBack" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lstGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnCreateOnClick"
+            android:text="@string/btnCreate" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnSaveOnClick"
+            android:text="@string/btnSave" />
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnLoadOnClick"
+            android:text="@string/btnLoad" />
+
+        <Button
+            android:id="@+id/btnRename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnRenameOnClick"
+            android:text="@string/btnRename" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnDeleteOnClick"
+            android:text="@string/btnDelete" />
+
+        <Button
+            android:id="@+id/btnClone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BtnCloneOnClick"
+            android:text="@string/btnClone" />
+
+    </LinearLayout>
+
+</LinearLayout>
